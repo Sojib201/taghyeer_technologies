@@ -8,7 +8,7 @@ class AppConstants {
   // Pagination
   static const int pageLimit = 10;
 
-  // SharedPreferences Keys
+  // Keys
   static const String userKey = 'cached_user';
   static const String themeKey = 'theme_mode';
   static const String tokenKey = 'auth_token';

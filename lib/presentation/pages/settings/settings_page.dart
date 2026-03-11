@@ -84,10 +84,10 @@ class SettingsPage extends StatelessWidget {
               Card(
                 child: Column(
                   children: [
-                    ListTile(
-                      leading: const Icon(Icons.palette_outlined),
-                      title: const Text('Appearance'),
-                      subtitle: const Text('Customize the app look'),
+                    const ListTile(
+                      leading: Icon(Icons.palette_outlined),
+                      title: Text('Appearance'),
+                      subtitle: Text('Customize the app look'),
                     ),
                     const Divider(height: 1, indent: 16, endIndent: 16),
                     BlocBuilder<ThemeCubit, ThemeMode>(
@@ -146,7 +146,6 @@ class SettingsPage extends StatelessWidget {
               ),
               const SizedBox(height: 16),
 
-              // Logout
               Card(
                 child: ListTile(
                   leading: const Icon(Icons.logout, color: Colors.red),

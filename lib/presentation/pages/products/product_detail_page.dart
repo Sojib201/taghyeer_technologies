@@ -25,7 +25,6 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Main Image
             AspectRatio(
               aspectRatio: 16 / 9,
               child: CachedNetworkImage(
@@ -43,7 +42,6 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                 ),
               ),
             ),
-            // Image thumbnails
             if (product.images.length > 1)
               SizedBox(
                 height: 70,

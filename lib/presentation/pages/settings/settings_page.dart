@@ -23,13 +23,11 @@ class SettingsPage extends StatelessWidget {
           return ListView(
             padding: const EdgeInsets.all(16),
             children: [
-              // User Profile Section
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(20),
                   child: Column(
                     children: [
-                      // Avatar
                       CircleAvatar(
                         radius: 44,
                         backgroundColor: colorScheme.primary.withOpacity(0.15),
@@ -80,7 +78,6 @@ class SettingsPage extends StatelessWidget {
               ),
               const SizedBox(height: 16),
 
-              // Theme Section
               Card(
                 child: Column(
                   children: [
@@ -115,7 +112,6 @@ class SettingsPage extends StatelessWidget {
               ),
               const SizedBox(height: 16),
 
-              // App Info Section
               Card(
                 child: Column(
                   children: [
